@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Three columns */
+    gap: 20px;
+    /* Gap between items */
+}
+
+.doghouse {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.doghouse img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
